@@ -1,0 +1,335 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+.all{
+    margin-left: 260px;
+    /* align-items: center; */
+    margin-top: 35px;
+    text-align: center;
+    color: snow;
+   
+}
+.form_info{
+    width: 358px;
+    height: 375px;
+    text-align: center;
+    background-color: white;
+   margin-left: 227px;
+   /* border: 1px; */
+   border-color: #000000;
+   border-style: solid;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    
+}
+
+.user_input:focus{
+    border-radius: 3px;
+    outline: none;
+    border-color: #a8a8a8;
+
+
+
+}
+.password_input:focus{
+    border-radius: 3px;
+    outline: none;
+    border-color: #a8a8a8;
+
+}
+
+.ht{
+    display: flex;
+    margin-top: 20px;
+ 
+}
+.hr_one{
+    width: 358px;
+    height: 5px;
+    margin-left: 46px;
+    margin-right: 3%;
+    color: antiquewhite;
+    height: 0;
+    /* opacity: 0; */
+  
+}
+.hr_two{
+    margin-left:  3%;
+    margin-right: 44px;
+    width: 358px;
+    height: 0;
+    color: antiquewhite;
+
+}
+.or_txt{
+    margin-top: -2%;
+    padding-top: 0%;
+    font-size: small;
+    color: #8e8eab;
+    text-transform: uppercase;
+    /* text-decoration:none solid rgb(142, 142, 142) */
+}
+.page_bottum{
+    margin-top: 20px;
+    display: flex;
+    font-size: small;
+    margin-left: 85px;
+
+}
+.facebook_icon{
+    margin-right: 5px;
+    margin-top: -4px;
+    width: 24px;
+    height: 24px;
+
+}
+#forgot_pass{
+    margin-top: 18px;
+   font-size: 12px;
+   color: #00376b;
+   line-height: 14px;
+}
+
+.user_input{
+    margin-bottom: 5px;
+    height:36px ;
+    width: 268px;
+    border-radius: 3px;
+    outline: none;
+    border-color: #a8a8a8;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+    font-size: 12px;
+    padding: 14px 0 2px 8px!important;
+    
+   
+}
+.password_input{
+    height:36px ;
+    width: 268px;
+    font-size: 12px;
+    padding: 14px 0 2px 8px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+    
+    
+}
+.Log_in_btn{
+    width: 268px;
+    height: 28px;
+    background-color:#09f;
+    border-style: none;
+    border-radius: 4px;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 14px;
+    
+
+
+}
+.create_account{
+    margin-left: 227px;
+    margin-top: 13px;
+    border-color: #000000;
+   border-style: solid;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    background-color: white;
+    width: 358px;
+    /* color: rgba(var(--i1d,38,38,38),1); */
+    
+    /* height: 63px; */
+    height: 63px;
+
+   
+}
+#sgn{
+    color:#0097f6;
+    text-decoration: none;
+    font-weight: 600;
+    /* line-height: 18px; */
+    
+
+}
+.signe_up{
+    text-align: center;
+    padding-top: 25px;
+    color: #262626;
+    font-size: 14px;
+   
+    /* margin-bottom: 20px; */
+}
+.get_app{
+    margin-top: 13px;
+    text-align: center;
+    width: 358px;
+    height: 43px;
+   
+    margin-left: 227px;
+    background-color: #fafafa
+}
+#getapp{
+   padding-top: 10px;
+    text-align: center;
+
+    /* margin-left: 40px; */
+    /* margin-right: 20px; */
+    color: #262626;
+
+}
+.instagram_txt{
+    color: #262626;
+    font-family: 'Grand Hotel', cursive;
+    height: 51px;
+    width: 341px;
+   font-size: 50px;
+   margin-bottom: 80px;
+   padding-top: 20px;
+
+}
+#link{
+    color: #385185;
+    text-decoration: none;
+
+}
+.fb_insta{
+    /* height: 40px; */
+    /* margin-top: 20px; */
+    display: flex;
+   margin-right: 20px;
+   /* background-color: #00a6f9; */
+   width: 358px;
+   height: 63px;
+
+}
+#app_store{
+    margin-top:-18px;
+    height:123px;
+    margin-right:-38%;
+    margin-left: -81px;
+        
+
+}
+#google_store{
+    margin-top:-11px;
+    height: 123px;
+
+}
+a{
+    text-decoration: none;
+    
+}
+/* 
+@media screen and (max-width: 480px){
+
+   .form_info{
+       text-align: center;
+   }
+  
+    .create_account{
+        text-align: center;
+
+    }
+    .get_app{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .form_info{
+        align-items: center;
+
+    }
+    
+     .create_account{
+        align-items: center;
+
+ 
+     }
+     .get_app{
+        align-items: center;
+
+     }
+}
+@media screen and (max-width: 1024px){
+
+    .form_info{
+        align-items: center;
+
+    }
+    
+     .create_account{
+        align-items: center;
+
+ 
+     }
+     .get_app{
+        align-items: center;
+
+     }
+}
+@media screen and (max-width: 1200px){
+
+    .form_info{
+        align-items: center;
+
+    }
+     
+     .create_account{
+        align-items: center;
+
+ 
+     }
+     .get_app{
+        align-items: center;
+
+     }
+}
+@media screen and (max-width: 1200px){
+
+    .form_info{
+        align-items: center;
+
+    }
+     
+     .create_account{
+        align-items: center;
+
+ 
+     }
+     .get_app{
+        align-items: center;
+
+     }
+}
+
+ */
+@media screen and (max-width: 480px){
+
+    .form_info{
+    size: 20px;
+
+    }
+/*      
+     .create_account{
+        align-items: center;
+
+ 
+     }
+     .get_app{
+        align-items: center;
+
+     } */
+}
